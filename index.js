@@ -7,7 +7,7 @@ const cors = require('cors');
 const app = express();
 
 //habilitar cors
-const whiteList = ['http://localhost:3001']; //hace accesible solo desde esta url
+const whiteList = ['http://localhost:3001' || 'https://bddveterinaria.herokuapp.com']; //hace accesible solo desde esta url
 const corsOptions = {
     origin: (origin, callbaback) => {
         //console.log(origin);
