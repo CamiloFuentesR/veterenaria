@@ -7,7 +7,7 @@ const cors = require('cors');
 const app = express();
 
 //habilitar cors
-const whiteList = ['https://bddveterinaria.herokuapp.com']; //hace accesible solo desde esta url
+const whiteList = ['https://citasvete.netlify.app']; //hace accesible solo desde esta url
 const corsOptions = {
     origin: (origin, callbaback) => {
         //console.log(origin);
