@@ -19,7 +19,7 @@ const corsOptions = {
         }
     }
 }
-//con uso de cors
+//con uso de corss
  app.use(cors(corsOptions));
 
 //sin cors limitado
